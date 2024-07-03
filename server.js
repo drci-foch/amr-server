@@ -7,9 +7,6 @@ db.sequelize.sync( ).then(() => {
     console.log("Drop and re-sync db.");
 });
 
-var corsOptions = {
-    origin: "http://localhost:5173/"
-};
 
 app.use(cors());
 
